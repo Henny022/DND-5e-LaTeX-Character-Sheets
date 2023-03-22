@@ -17,3 +17,4 @@ jobs:
         uses: matsavage/dnd-latex-action@v0.3.0
         with:
           working_directory: characters
+          args: -pdfxe -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
